@@ -9,7 +9,7 @@ Source code and resources for our Findings of ACL 2026 paper:
 - Model Weights (Hugging Face): _TBD (to be released)_
 - Evaluation set: `BELLE-eval-S2S` (Chinese speech-to-speech conversation test set)
 
-![model](.\assets\model.png)
+![model](./assets/model.png)
 
 ## 💡 Overview
 
