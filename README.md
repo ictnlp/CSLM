@@ -2,7 +2,7 @@
 
 > [Yan Zhou](https://zhouyan19.github.io/zhouyan/), [Qingkai Fang](https://fangqingkai.github.io/), [Yun Hong](https://hongyun2002.github.io/), [Yang Feng*](https://people.ucas.edu.cn/~yangfeng)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.11096-b31b1b?logo=arxiv)](https://arxiv.org/abs/2604.11096) [![code](https://img.shields.io/badge/github-repo-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fictnlp%2FCSLM%2Ftree%2Fmain)](https://github.com/ictnlp/CSLM/tree/main) [![model](https://img.shields.io/badge/Hugging_Face-Model%26Data-blue?logo=huggingface&link=https%3A%2F%2Fhuggingface.co%2Fcollections%2FICTNLP%2Fcslm)](https://huggingface.co/collections/ICTNLP/cslm)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.11096-b31b1b?logo=arxiv)](https://arxiv.org/abs/2604.11096) [![code](https://img.shields.io/badge/GitHub-Code-brightgeen?logo=github&link=https%3A%2F%2Fgithub.com%2Fictnlp%2FCSLM)](https://github.com/ictnlp/CSLM/tree/main) [![model](https://img.shields.io/badge/Hugging_Face-Model%26Data-blue?logo=huggingface&link=https%3A%2F%2Fhuggingface.co%2Fcollections%2FICTNLP%2Fcslm)](https://huggingface.co/collections/ICTNLP/cslm)
 
 Source code and resources for our Findings of ACL 2026 paper: **Efficient Training for Cross-lingual Speech Language Models**.
 
