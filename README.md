@@ -2,7 +2,7 @@
 
 > [Yan Zhou](https://zhouyan19.github.io/zhouyan/), [Qingkai Fang](https://fangqingkai.github.io/), [Yun Hong](https://hongyun2002.github.io/), [Yang Feng*](https://people.ucas.edu.cn/~yangfeng)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2604.11096-b31b1b?logo=arxiv)](https://arxiv.org/abs/2604.11096) [![code](https://img.shields.io/badge/github-repo-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fictnlp%2FCSLM%2Ftree%2Fmain)](https://github.com/ictnlp/CSLM/tree/main)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.11096-b31b1b?logo=arxiv)](https://arxiv.org/abs/2604.11096) [![code](https://img.shields.io/badge/github-repo-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fictnlp%2FCSLM%2Ftree%2Fmain)](https://github.com/ictnlp/CSLM/tree/main) [![model](https://img.shields.io/badge/Hugging_Face-Model%26Data-blue?logo=huggingface&link=https%3A%2F%2Fhuggingface.co%2Fcollections%2FICTNLP%2Fcslm)](https://huggingface.co/collections/ICTNLP/cslm)
 
 Source code and resources for our Findings of ACL 2026 paper: **Efficient Training for Cross-lingual Speech Language Models**.
 
@@ -13,6 +13,7 @@ Source code and resources for our Findings of ACL 2026 paper: **Efficient Traini
 This repository contains training and inference code for cross-lingual speech language models (CSLM), together with a Chinese S2S conversation benchmark (`BELLE-eval-S2S`) used in our experiments.
 
 The current release includes:
+
 - Pre-training and supervised fine-tuning (SFT) scripts
 - Inference scripts for general and cross-lingual decoding
 - A public Chinese test set for S2S conversation evaluation
@@ -22,6 +23,7 @@ The current release includes:
 ### 1) Pre-training
 
 Edit paths in `cslm/train/pretrain.sh`:
+
 - `DATA_ROOT` / `DATA_PATH`
 - `MODEL_DIR`
 - `CACHE_DIR`
@@ -38,6 +40,7 @@ cd cslm/train
 ### 2) Supervised Fine-tuning (SFT)
 
 Edit paths in `cslm/train/sft.sh`:
+
 - `DATA_ROOT` / `DATA_PATH`
 - `MODEL_DIR` (pretrained checkpoint)
 - `CACHE_DIR`
@@ -97,6 +100,7 @@ python decode_general_cross.py \
 ```
 
 Outputs are appended to:
+
 - `/path/to/output/responses.json`
 
 ## 🗂️ Dataset
