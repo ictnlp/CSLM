@@ -2,12 +2,9 @@
 
 > [Yan Zhou](https://zhouyan19.github.io/zhouyan/), [Qingkai Fang](https://fangqingkai.github.io/), [Yun Hong](https://hongyun2002.github.io/), [Yang Feng*](https://people.ucas.edu.cn/~yangfeng)
 
-Source code and resources for our Findings of ACL 2026 paper:
-**Efficient Training for Cross-lingual Speech Language Models**.
+[![arXiv](https://img.shields.io/badge/arXiv-2604.11096-b31b1b?logo=arxiv)](https://arxiv.org/abs/2604.11096) [![code](https://img.shields.io/badge/github-repo-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fictnlp%2FCSLM%2Ftree%2Fmain)](https://github.com/ictnlp/CSLM/tree/main)
 
-- Paper (arXiv): [Efficient Training for Cross-lingual Speech Language Models](https://arxiv.org/abs/2604.11096)
-- Model Weights (Hugging Face): _TBD (to be released)_
-- Evaluation set: `BELLE-eval-S2S` (Chinese speech-to-speech conversation test set)
+Source code and resources for our Findings of ACL 2026 paper: **Efficient Training for Cross-lingual Speech Language Models**.
 
 ![model](./assets/model.png)
 
